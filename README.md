@@ -2063,7 +2063,7 @@ await sock.sendStatusMentions(
 
 ## Rich AI Response Messages
 
-These methods generate Meta AI–style rich response messages using the `botForwardedMessage → richResponseMessage` proto chain. All methods are available directly on the `sock` object.
+These examples generate Meta AI–style rich response messages using the `botForwardedMessage → richResponseMessage` proto chain. Rich responses are sent via `sock.sendMessage(...)` using a `richResponse` payload; they are not exposed as separate helper methods directly on the `sock` object in the API shown here.
 
 ### Rich Response Message
 
